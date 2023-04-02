@@ -1,10 +1,13 @@
 #ifndef ANIMEFORALL_H
 #define ANIMEFORALL_H
 
-#include <QMainWindow>
-#include "LoginWindow.h"
+#include <QWidget>
 
-class AnimeForAll : public QMainWindow
+QT_BEGIN_NAMESPACE
+namespace Ui { class AnimeForAll; }
+QT_END_NAMESPACE
+
+class AnimeForAll : public QWidget
 {
     Q_OBJECT
 
@@ -13,7 +16,7 @@ public:
     ~AnimeForAll();
 
 private:
-    LoginWindow *loginWindow;
+    Ui::AnimeForAll *ui;
 };
 
 #endif // ANIMEFORALL_H

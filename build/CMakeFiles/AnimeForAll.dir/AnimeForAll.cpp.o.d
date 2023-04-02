@@ -285,9 +285,7 @@ CMakeFiles/AnimeForAll.dir/AnimeForAll.cpp.o: \
  /usr/include/qt/QtCore/qjsonobject.h /usr/include/qt/QtCore/QEventLoop \
  /usr/include/qt/QtCore/qeventloop.h \
  /home/anarchyst/AnimeForAll/AnimeForAll.h \
- /usr/include/qt/QtWidgets/QMainWindow \
- /usr/include/qt/QtWidgets/qmainwindow.h \
- /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h \
+ /usr/include/qt/QtWidgets/QWidget /usr/include/qt/QtWidgets/qwidget.h \
  /home/anarchyst/AnimeForAll/LoginWindow.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
  /usr/include/qt/QtWidgets/QLineEdit \
@@ -296,10 +294,11 @@ CMakeFiles/AnimeForAll.dir/AnimeForAll.cpp.o: \
  /usr/include/qt/QtGui/qpen.h /usr/include/qt/QtGui/qtextoption.h \
  /home/anarchyst/AnimeForAll/build/AnimeForAll_autogen/include/ui_AnimeForAll.h \
  /usr/include/qt/QtWidgets/QApplication \
- /usr/include/qt/QtWidgets/QMainWindow /usr/include/qt/QtWidgets/QMenuBar \
- /usr/include/qt/QtWidgets/qmenubar.h /usr/include/qt/QtWidgets/qmenu.h \
- /usr/include/qt/QtWidgets/qaction.h \
+ /usr/include/qt/QtWidgets/QMainWindow \
+ /usr/include/qt/QtWidgets/qmainwindow.h \
+ /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h \
+ /usr/include/qt/QtWidgets/QMenuBar /usr/include/qt/QtWidgets/qmenubar.h \
+ /usr/include/qt/QtWidgets/qmenu.h /usr/include/qt/QtWidgets/qaction.h \
  /usr/include/qt/QtWidgets/qactiongroup.h \
  /usr/include/qt/QtWidgets/QStatusBar \
- /usr/include/qt/QtWidgets/qstatusbar.h /usr/include/qt/QtWidgets/QWidget \
- /usr/include/qt/QtWidgets/qwidget.h
+ /usr/include/qt/QtWidgets/qstatusbar.h /usr/include/qt/QtWidgets/QWidget
