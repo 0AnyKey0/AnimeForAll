@@ -6,9 +6,9 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QEventLoop>
-#include "AnimeForAll.h"
 #include "LoginWindow.h"
 #include "ui_AnimeForAll.h"
+#include "AnimeForAll.h"
 
 AnimeForAll::AnimeForAll(QWidget *parent) :
     QWidget(parent),

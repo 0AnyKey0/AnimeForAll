@@ -1,13 +1,13 @@
 /********************************************************************************
-** Form generated from reading UI file 'AnimeForAll.ui'
+** Form generated from reading UI file 'LoginWindow.ui'
 **
 ** Created by: Qt User Interface Compiler version 5.15.8
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
 
-#ifndef UI_ANIMEFORALL_H
-#define UI_ANIMEFORALL_H
+#ifndef LOGINWINDOW_UI_H
+#define LOGINWINDOW_UI_H
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
@@ -23,7 +23,7 @@ public:
     {
         if (Form->objectName().isEmpty())
             Form->setObjectName(QString::fromUtf8("Form"));
-        Form->resize(612, 487);
+        Form->resize(491, 413);
 
         retranslateUi(Form);
 
@@ -32,7 +32,7 @@ public:
 
     void retranslateUi(QWidget *Form)
     {
-        Form->setWindowTitle(QCoreApplication::translate("Form", "AnimeForAll", nullptr));
+        Form->setWindowTitle(QCoreApplication::translate("Form", "Form", nullptr));
     } // retranslateUi
 
 };
@@ -43,4 +43,4 @@ namespace Ui {
 
 QT_END_NAMESPACE
 
-#endif // UI_ANIMEFORALL_H
+#endif // LOGINWINDOW_UI_H

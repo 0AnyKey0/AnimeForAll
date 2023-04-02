@@ -6,8 +6,8 @@
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
 
-#ifndef UI_ANIMEFORALL_H
-#define UI_ANIMEFORALL_H
+#ifndef ANIMEFORALL_UI_H
+#define ANIMEFORALL_UI_H
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
@@ -43,4 +43,4 @@ namespace Ui {
 
 QT_END_NAMESPACE
 
-#endif // UI_ANIMEFORALL_H
+#endif // ANIMEFORALL_UI_H

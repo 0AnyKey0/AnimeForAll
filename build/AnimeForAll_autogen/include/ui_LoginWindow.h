@@ -23,7 +23,7 @@ public:
     {
         if (Form->objectName().isEmpty())
             Form->setObjectName(QString::fromUtf8("Form"));
-        Form->resize(400, 300);
+        Form->resize(491, 413);
 
         retranslateUi(Form);
 
