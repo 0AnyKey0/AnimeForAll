@@ -1,0 +1,4 @@
+/home/anarchyst/AnimeForAll/build/CMakeFiles/AnimeForAll.dir
+/home/anarchyst/AnimeForAll/build/CMakeFiles/edit_cache.dir
+/home/anarchyst/AnimeForAll/build/CMakeFiles/rebuild_cache.dir
+/home/anarchyst/AnimeForAll/build/CMakeFiles/AnimeForAll_autogen.dir
