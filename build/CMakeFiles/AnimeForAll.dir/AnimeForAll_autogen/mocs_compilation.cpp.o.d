@@ -240,5 +240,12 @@ CMakeFiles/AnimeForAll.dir/AnimeForAll_autogen/mocs_compilation.cpp.o: \
  /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h \
  /home/anarchyst/AnimeForAll/build/AnimeForAll_autogen/EWIEGA46WW/../../../LoginWindow.h \
  /usr/include/qt/QtWidgets/QDialog /usr/include/qt/QtWidgets/qdialog.h \
+ /usr/include/qt/QtWidgets/QLabel /usr/include/qt/QtWidgets/qlabel.h \
+ /usr/include/qt/QtWidgets/qframe.h /usr/include/qt/QtWidgets/QLineEdit \
+ /usr/include/qt/QtWidgets/qlineedit.h \
+ /usr/include/qt/QtGui/qtextcursor.h /usr/include/qt/QtGui/qtextformat.h \
+ /usr/include/qt/QtCore/qvariant.h /usr/include/qt/QtCore/qmap.h \
+ /usr/include/c++/12.2.1/variant /usr/include/qt/QtGui/qpen.h \
+ /usr/include/qt/QtGui/qtextoption.h \
  /home/anarchyst/AnimeForAll/build/AnimeForAll_autogen/EWIEGA46WW/moc_LoginWindow.cpp \
  /home/anarchyst/AnimeForAll/build/AnimeForAll_autogen/EWIEGA46WW/../../../LoginWindow.h

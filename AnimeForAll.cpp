@@ -6,7 +6,21 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QEventLoop>
+#include "AnimeForAll.h"
 #include "LoginWindow.h"
+#include "ui_AnimeForAll.h"
+
+AnimeForAll::AnimeForAll(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::AnimeForAll)
+{
+    ui->setupUi(this);
+}
+
+AnimeForAll::~AnimeForAll()
+{
+    delete ui;
+}
 
 int main(int argc, char *argv[])
 {

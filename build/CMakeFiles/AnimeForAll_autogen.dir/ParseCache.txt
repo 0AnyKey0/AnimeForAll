@@ -2,6 +2,7 @@
 /home/anarchyst/AnimeForAll/LoginWindow.cpp
  uic:ui_LoginWindow.h
 /home/anarchyst/AnimeForAll/AnimeForAll.cpp
+ uic:ui_AnimeForAll.h
 /home/anarchyst/AnimeForAll/LoginWindow.h
  mmc:Q_OBJECT
  mdp:/home/anarchyst/AnimeForAll/LoginWindow.h
@@ -256,6 +257,7 @@
  mdp:/usr/include/qt/QtCore/qline.h
  mdp:/usr/include/qt/QtCore/qlist.h
  mdp:/usr/include/qt/QtCore/qlogging.h
+ mdp:/usr/include/qt/QtCore/qmap.h
  mdp:/usr/include/qt/QtCore/qmargins.h
  mdp:/usr/include/qt/QtCore/qmetatype.h
  mdp:/usr/include/qt/QtCore/qnamespace.h
@@ -285,6 +287,7 @@
  mdp:/usr/include/qt/QtCore/qsystemdetection.h
  mdp:/usr/include/qt/QtCore/qtcore-config.h
  mdp:/usr/include/qt/QtCore/qtypeinfo.h
+ mdp:/usr/include/qt/QtCore/qvariant.h
  mdp:/usr/include/qt/QtCore/qvarlengtharray.h
  mdp:/usr/include/qt/QtCore/qvector.h
  mdp:/usr/include/qt/QtCore/qversiontagging.h
@@ -299,18 +302,27 @@
  mdp:/usr/include/qt/QtGui/qmatrix.h
  mdp:/usr/include/qt/QtGui/qpaintdevice.h
  mdp:/usr/include/qt/QtGui/qpalette.h
+ mdp:/usr/include/qt/QtGui/qpen.h
  mdp:/usr/include/qt/QtGui/qpixelformat.h
  mdp:/usr/include/qt/QtGui/qpixmap.h
  mdp:/usr/include/qt/QtGui/qpolygon.h
  mdp:/usr/include/qt/QtGui/qregion.h
  mdp:/usr/include/qt/QtGui/qrgb.h
  mdp:/usr/include/qt/QtGui/qrgba64.h
+ mdp:/usr/include/qt/QtGui/qtextcursor.h
+ mdp:/usr/include/qt/QtGui/qtextformat.h
+ mdp:/usr/include/qt/QtGui/qtextoption.h
  mdp:/usr/include/qt/QtGui/qtgui-config.h
  mdp:/usr/include/qt/QtGui/qtguiglobal.h
  mdp:/usr/include/qt/QtGui/qtransform.h
  mdp:/usr/include/qt/QtGui/qwindowdefs.h
  mdp:/usr/include/qt/QtWidgets/QDialog
+ mdp:/usr/include/qt/QtWidgets/QLabel
+ mdp:/usr/include/qt/QtWidgets/QLineEdit
  mdp:/usr/include/qt/QtWidgets/qdialog.h
+ mdp:/usr/include/qt/QtWidgets/qframe.h
+ mdp:/usr/include/qt/QtWidgets/qlabel.h
+ mdp:/usr/include/qt/QtWidgets/qlineedit.h
  mdp:/usr/include/qt/QtWidgets/qsizepolicy.h
  mdp:/usr/include/qt/QtWidgets/qtwidgets-config.h
  mdp:/usr/include/qt/QtWidgets/qtwidgetsglobal.h
@@ -586,6 +598,7 @@
  mdp:/usr/include/qt/QtCore/qline.h
  mdp:/usr/include/qt/QtCore/qlist.h
  mdp:/usr/include/qt/QtCore/qlogging.h
+ mdp:/usr/include/qt/QtCore/qmap.h
  mdp:/usr/include/qt/QtCore/qmargins.h
  mdp:/usr/include/qt/QtCore/qmetatype.h
  mdp:/usr/include/qt/QtCore/qnamespace.h
@@ -615,6 +628,7 @@
  mdp:/usr/include/qt/QtCore/qsystemdetection.h
  mdp:/usr/include/qt/QtCore/qtcore-config.h
  mdp:/usr/include/qt/QtCore/qtypeinfo.h
+ mdp:/usr/include/qt/QtCore/qvariant.h
  mdp:/usr/include/qt/QtCore/qvarlengtharray.h
  mdp:/usr/include/qt/QtCore/qvector.h
  mdp:/usr/include/qt/QtCore/qversiontagging.h
@@ -630,19 +644,28 @@
  mdp:/usr/include/qt/QtGui/qmatrix.h
  mdp:/usr/include/qt/QtGui/qpaintdevice.h
  mdp:/usr/include/qt/QtGui/qpalette.h
+ mdp:/usr/include/qt/QtGui/qpen.h
  mdp:/usr/include/qt/QtGui/qpixelformat.h
  mdp:/usr/include/qt/QtGui/qpixmap.h
  mdp:/usr/include/qt/QtGui/qpolygon.h
  mdp:/usr/include/qt/QtGui/qregion.h
  mdp:/usr/include/qt/QtGui/qrgb.h
  mdp:/usr/include/qt/QtGui/qrgba64.h
+ mdp:/usr/include/qt/QtGui/qtextcursor.h
+ mdp:/usr/include/qt/QtGui/qtextformat.h
+ mdp:/usr/include/qt/QtGui/qtextoption.h
  mdp:/usr/include/qt/QtGui/qtgui-config.h
  mdp:/usr/include/qt/QtGui/qtguiglobal.h
  mdp:/usr/include/qt/QtGui/qtransform.h
  mdp:/usr/include/qt/QtGui/qwindowdefs.h
  mdp:/usr/include/qt/QtWidgets/QDialog
+ mdp:/usr/include/qt/QtWidgets/QLabel
+ mdp:/usr/include/qt/QtWidgets/QLineEdit
  mdp:/usr/include/qt/QtWidgets/QMainWindow
  mdp:/usr/include/qt/QtWidgets/qdialog.h
+ mdp:/usr/include/qt/QtWidgets/qframe.h
+ mdp:/usr/include/qt/QtWidgets/qlabel.h
+ mdp:/usr/include/qt/QtWidgets/qlineedit.h
  mdp:/usr/include/qt/QtWidgets/qmainwindow.h
  mdp:/usr/include/qt/QtWidgets/qsizepolicy.h
  mdp:/usr/include/qt/QtWidgets/qtabwidget.h

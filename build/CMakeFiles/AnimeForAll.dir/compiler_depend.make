@@ -405,7 +405,25 @@ CMakeFiles/AnimeForAll.dir/AnimeForAll.cpp.o: /home/anarchyst/AnimeForAll/AnimeF
   /usr/include/qt/QtGui/qicon.h \
   /home/anarchyst/AnimeForAll/LoginWindow.h \
   /usr/include/qt/QtWidgets/QDialog \
-  /usr/include/qt/QtWidgets/qdialog.h
+  /usr/include/qt/QtWidgets/qdialog.h \
+  /usr/include/qt/QtWidgets/QLineEdit \
+  /usr/include/qt/QtWidgets/qlineedit.h \
+  /usr/include/qt/QtGui/qtextcursor.h \
+  /usr/include/qt/QtGui/qtextformat.h \
+  /usr/include/qt/QtGui/qpen.h \
+  /usr/include/qt/QtGui/qtextoption.h \
+  AnimeForAll_autogen/include/ui_AnimeForAll.h \
+  /usr/include/qt/QtWidgets/QApplication \
+  /usr/include/qt/QtWidgets/QMainWindow \
+  /usr/include/qt/QtWidgets/QMenuBar \
+  /usr/include/qt/QtWidgets/qmenubar.h \
+  /usr/include/qt/QtWidgets/qmenu.h \
+  /usr/include/qt/QtWidgets/qaction.h \
+  /usr/include/qt/QtWidgets/qactiongroup.h \
+  /usr/include/qt/QtWidgets/QStatusBar \
+  /usr/include/qt/QtWidgets/qstatusbar.h \
+  /usr/include/qt/QtWidgets/QWidget \
+  /usr/include/qt/QtWidgets/qwidget.h
 
 CMakeFiles/AnimeForAll.dir/AnimeForAll_autogen/mocs_compilation.cpp.o: AnimeForAll_autogen/mocs_compilation.cpp \
   /usr/include/stdc-predef.h \
@@ -741,6 +759,18 @@ CMakeFiles/AnimeForAll.dir/AnimeForAll_autogen/mocs_compilation.cpp.o: AnimeForA
   /home/anarchyst/AnimeForAll/LoginWindow.h \
   /usr/include/qt/QtWidgets/QDialog \
   /usr/include/qt/QtWidgets/qdialog.h \
+  /usr/include/qt/QtWidgets/QLabel \
+  /usr/include/qt/QtWidgets/qlabel.h \
+  /usr/include/qt/QtWidgets/qframe.h \
+  /usr/include/qt/QtWidgets/QLineEdit \
+  /usr/include/qt/QtWidgets/qlineedit.h \
+  /usr/include/qt/QtGui/qtextcursor.h \
+  /usr/include/qt/QtGui/qtextformat.h \
+  /usr/include/qt/QtCore/qvariant.h \
+  /usr/include/qt/QtCore/qmap.h \
+  /usr/include/c++/12.2.1/variant \
+  /usr/include/qt/QtGui/qpen.h \
+  /usr/include/qt/QtGui/qtextoption.h \
   AnimeForAll_autogen/EWIEGA46WW/moc_LoginWindow.cpp \
   /home/anarchyst/AnimeForAll/LoginWindow.h
 
@@ -1072,11 +1102,21 @@ CMakeFiles/AnimeForAll.dir/LoginWindow.cpp.o: /home/anarchyst/AnimeForAll/LoginW
   /usr/include/qt/QtWidgets/qsizepolicy.h \
   /usr/include/qt/QtGui/qcursor.h \
   /usr/include/qt/QtGui/qkeysequence.h \
-  AnimeForAll_autogen/include/ui_LoginWindow.h \
-  /usr/include/qt/QtCore/QVariant \
+  /usr/include/qt/QtWidgets/QLabel \
+  /usr/include/qt/QtWidgets/qlabel.h \
+  /usr/include/qt/QtWidgets/qframe.h \
+  /usr/include/qt/QtWidgets/QLineEdit \
+  /usr/include/qt/QtWidgets/qlineedit.h \
+  /usr/include/qt/QtGui/qtextcursor.h \
+  /usr/include/qt/QtGui/qtextformat.h \
   /usr/include/qt/QtCore/qvariant.h \
   /usr/include/qt/QtCore/qmap.h \
   /usr/include/c++/12.2.1/variant \
+  /usr/include/qt/QtGui/qpen.h \
+  /usr/include/qt/QtGui/qtextoption.h \
+  AnimeForAll_autogen/include/ui_LoginWindow.h \
+  /usr/include/qt/QtCore/QVariant \
+  /usr/include/qt/QtCore/qvariant.h \
   /usr/include/qt/QtWidgets/QApplication \
   /usr/include/qt/QtWidgets/qapplication.h \
   /usr/include/qt/QtCore/qcoreapplication.h \
@@ -1085,7 +1125,6 @@ CMakeFiles/AnimeForAll.dir/LoginWindow.cpp.o: /home/anarchyst/AnimeForAll/LoginW
   /usr/include/qt/QtGui/qguiapplication.h \
   /usr/include/qt/QtGui/qinputmethod.h \
   /usr/include/qt/QtCore/qlocale.h \
-  /usr/include/qt/QtCore/qvariant.h \
   /usr/include/qt/QtWidgets/QWidget \
   /usr/include/qt/QtWidgets/qwidget.h \
   /usr/include/qt/QtWidgets/QMessageBox \
@@ -1098,6 +1137,18 @@ CMakeFiles/AnimeForAll.dir/LoginWindow.cpp.o: /home/anarchyst/AnimeForAll/LoginW
 /home/anarchyst/AnimeForAll/LoginWindow.cpp:
 
 AnimeForAll_autogen/EWIEGA46WW/moc_AnimeForAll.cpp:
+
+/usr/include/qt/QtWidgets/QStatusBar:
+
+/usr/include/qt/QtWidgets/qactiongroup.h:
+
+/usr/include/qt/QtWidgets/qmenu.h:
+
+/usr/include/qt/QtGui/qtextoption.h:
+
+AnimeForAll_autogen/include/ui_AnimeForAll.h:
+
+/usr/include/qt/QtGui/qtextcursor.h:
 
 /usr/include/qt/QtWidgets/qdialog.h:
 
@@ -1181,6 +1232,8 @@ AnimeForAll_autogen/EWIEGA46WW/moc_AnimeForAll.cpp:
 
 /usr/include/qt/QtGui/qpixelformat.h:
 
+/usr/include/qt/QtWidgets/qmenubar.h:
+
 /usr/include/qt/QtGui/qimage.h:
 
 /usr/include/qt/QtGui/qtransform.h:
@@ -1250,6 +1303,8 @@ AnimeForAll_autogen/EWIEGA46WW/moc_AnimeForAll.cpp:
 /usr/include/qt/QtCore/qstringlist.h:
 
 /usr/include/qt/QtCore/qbytearraylist.h:
+
+/usr/include/qt/QtWidgets/qstatusbar.h:
 
 /usr/include/qt/QtGui/qfontmetrics.h:
 
@@ -1425,6 +1480,8 @@ AnimeForAll_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/gthr.h:
 
+/usr/include/qt/QtGui/qpen.h:
+
 /usr/include/qt/QtWidgets/QDialog:
 
 /usr/include/bits/types/locale_t.h:
@@ -1434,6 +1491,8 @@ AnimeForAll_autogen/mocs_compilation.cpp:
 /usr/include/c++/12.2.1/list:
 
 /usr/include/c++/12.2.1/ext/numeric_traits.h:
+
+/usr/include/qt/QtWidgets/QLineEdit:
 
 /usr/include/stdint.h:
 
@@ -1629,6 +1688,8 @@ AnimeForAll_autogen/mocs_compilation.cpp:
 
 /usr/include/sched.h:
 
+/usr/include/qt/QtWidgets/qaction.h:
+
 /usr/include/qt/QtCore/QIODevice:
 
 /usr/include/c++/12.2.1/pstl/execution_defs.h:
@@ -1755,6 +1816,8 @@ AnimeForAll_autogen/EWIEGA46WW/moc_LoginWindow.cpp:
 
 /usr/include/c++/12.2.1/bits/cxxabi_init_exception.h:
 
+/usr/include/qt/QtGui/qtextformat.h:
+
 /usr/include/c++/12.2.1/bits/string_view.tcc:
 
 /usr/include/c++/12.2.1/ext/string_conversions.h:
@@ -1772,6 +1835,8 @@ AnimeForAll_autogen/EWIEGA46WW/moc_LoginWindow.cpp:
 /usr/include/qt/QtCore/qalgorithms.h:
 
 /usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/qt/QtWidgets/qlineedit.h:
 
 /usr/include/bits/types/struct_FILE.h:
 
@@ -1872,6 +1937,8 @@ AnimeForAll_autogen/include/ui_LoginWindow.h:
 /usr/include/c++/12.2.1/functional:
 
 /usr/include/c++/12.2.1/bits/uses_allocator.h:
+
+/usr/include/qt/QtWidgets/QMenuBar:
 
 /usr/include/c++/12.2.1/bits/std_function.h:
 
