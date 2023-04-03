@@ -1,19 +1,19 @@
-namespace Ui {
-    class AnimeForAll;
-}
-
-#include "ui_AnimeForAll.h"
 #ifndef ANIMEFORALL_H
 #define ANIMEFORALL_H
 
 #include <QMainWindow>
+
+// добавьте эту строку
+namespace Ui {
+    class AnimeForAll;
+}
 
 class AnimeForAll : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    AnimeForAll(QWidget *parent = nullptr);
+    explicit AnimeForAll(QWidget *parent = nullptr);
     ~AnimeForAll();
 
 private:
