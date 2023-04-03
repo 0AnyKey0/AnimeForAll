@@ -1,9 +1,8 @@
+#include "ui_AnimeForAll.h"
 #ifndef ANIMEFORALL_H
 #define ANIMEFORALL_H
 
 #include <QMainWindow>
-
-#include "ui_AnimeForAll.h"
 
 class AnimeForAll : public QMainWindow
 {
@@ -14,7 +13,7 @@ public:
     ~AnimeForAll();
 
 private:
-    AnimeForAll *ui;  // изменено на Ui_AnimeForAll
+    Ui::AnimeForAll *ui;
 };
 
 #endif // ANIMEFORALL_H
