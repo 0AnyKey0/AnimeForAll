@@ -1,3 +1,7 @@
+namespace Ui {
+    class AnimeForAll;
+}
+
 #include "ui_AnimeForAll.h"
 #ifndef ANIMEFORALL_H
 #define ANIMEFORALL_H

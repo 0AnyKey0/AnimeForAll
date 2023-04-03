@@ -12,7 +12,7 @@
 
 AnimeForAll::AnimeForAll(QWidget *parent) :
     QMainWindow(parent),
-    ui(new AnimeForAll)
+    ui(new Ui::AnimeForAll)
 {
     ui->setupUi(this);
 }
