@@ -3,17 +3,18 @@
 
 #include <QMainWindow>
 
-// добавьте эту строку
+QT_BEGIN_NAMESPACE
 namespace Ui {
     class AnimeForAll;
 }
+QT_END_NAMESPACE
 
 class AnimeForAll : public QMainWindow
 {
     Q_OBJECT
 
 public:
-    explicit AnimeForAll(QWidget *parent = nullptr);
+    AnimeForAll(QWidget *parent = nullptr);
     ~AnimeForAll();
 
 private:

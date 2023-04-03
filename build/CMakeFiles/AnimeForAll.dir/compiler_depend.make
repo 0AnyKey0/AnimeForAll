@@ -549,10 +549,10 @@ CMakeFiles/AnimeForAll.dir/AnimeForAll_autogen/mocs_compilation.cpp.o: AnimeForA
   /usr/include/c++/12.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/12.2.1/pstl/execution_defs.h \
   /home/anarchyst/AnimeForAll/AnimeForAll.h \
-  /home/anarchyst/AnimeForAll/ui_AnimeForAll.h \
-  /usr/include/qt/QtCore/QVariant \
-  /usr/include/qt/QtCore/qvariant.h \
-  /usr/include/qt/QtCore/qatomic.h \
+  /usr/include/qt/QtWidgets/QMainWindow \
+  /usr/include/qt/QtWidgets/qmainwindow.h \
+  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/qt/QtGui/qtguiglobal.h \
   /usr/include/qt/QtCore/qglobal.h \
   /usr/include/c++/12.2.1/cstddef \
   /usr/include/c++/12.2.1/utility \
@@ -588,6 +588,7 @@ CMakeFiles/AnimeForAll.dir/AnimeForAll_autogen/mocs_compilation.cpp.o: AnimeForA
   /usr/include/qt/QtCore/qsysinfo.h \
   /usr/include/qt/QtCore/qlogging.h \
   /usr/include/qt/QtCore/qflags.h \
+  /usr/include/qt/QtCore/qatomic.h \
   /usr/include/qt/QtCore/qbasicatomic.h \
   /usr/include/qt/QtCore/qatomic_cxx11.h \
   /usr/include/qt/QtCore/qgenericatomic.h \
@@ -595,9 +596,18 @@ CMakeFiles/AnimeForAll.dir/AnimeForAll_autogen/mocs_compilation.cpp.o: AnimeForA
   /usr/include/qt/QtCore/qglobalstatic.h \
   /usr/include/qt/QtCore/qnumeric.h \
   /usr/include/qt/QtCore/qversiontagging.h \
+  /usr/include/qt/QtGui/qtgui-config.h \
+  /usr/include/qt/QtWidgets/qtwidgets-config.h \
+  /usr/include/qt/QtWidgets/qwidget.h \
+  /usr/include/qt/QtGui/qwindowdefs.h \
+  /usr/include/qt/QtCore/qobjectdefs.h \
+  /usr/include/qt/QtCore/qnamespace.h \
+  /usr/include/qt/QtCore/qobjectdefs_impl.h \
+  /usr/include/qt/QtCore/qobject.h \
+  /usr/include/qt/QtCore/qstring.h \
+  /usr/include/qt/QtCore/qchar.h \
   /usr/include/qt/QtCore/qbytearray.h \
   /usr/include/qt/QtCore/qrefcount.h \
-  /usr/include/qt/QtCore/qnamespace.h \
   /usr/include/qt/QtCore/qarraydata.h \
   /usr/include/string.h \
   /usr/include/strings.h \
@@ -647,15 +657,13 @@ CMakeFiles/AnimeForAll.dir/AnimeForAll_autogen/mocs_compilation.cpp.o: AnimeForA
   /usr/include/c++/12.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
   /usr/include/c++/12.2.1/stdexcept \
   /usr/include/c++/12.2.1/bits/streambuf.tcc \
+  /usr/include/qt/QtCore/qstringliteral.h \
+  /usr/include/qt/QtCore/qstringalgorithms.h \
+  /usr/include/qt/QtCore/qstringview.h \
   /usr/include/qt/QtCore/qlist.h \
   /usr/include/qt/QtCore/qalgorithms.h \
   /usr/include/qt/QtCore/qiterator.h \
   /usr/include/qt/QtCore/qhashfunctions.h \
-  /usr/include/qt/QtCore/qstring.h \
-  /usr/include/qt/QtCore/qchar.h \
-  /usr/include/qt/QtCore/qstringliteral.h \
-  /usr/include/qt/QtCore/qstringalgorithms.h \
-  /usr/include/qt/QtCore/qstringview.h \
   /usr/include/qt/QtCore/qpair.h \
   /usr/include/c++/12.2.1/numeric \
   /usr/include/c++/12.2.1/bits/stl_numeric.h \
@@ -693,19 +701,14 @@ CMakeFiles/AnimeForAll.dir/AnimeForAll_autogen/mocs_compilation.cpp.o: AnimeForA
   /usr/include/qt/QtCore/qstringlist.h \
   /usr/include/qt/QtCore/qregexp.h \
   /usr/include/qt/QtCore/qstringmatcher.h \
+  /usr/include/qt/QtCore/qscopedpointer.h \
   /usr/include/qt/QtCore/qmetatype.h \
   /usr/include/qt/QtCore/qvarlengtharray.h \
   /usr/include/qt/QtCore/qcontainerfwd.h \
-  /usr/include/qt/QtCore/qobjectdefs.h \
-  /usr/include/qt/QtCore/qobjectdefs_impl.h \
   /usr/include/c++/12.2.1/map \
   /usr/include/c++/12.2.1/bits/stl_tree.h \
   /usr/include/c++/12.2.1/bits/stl_map.h \
   /usr/include/c++/12.2.1/bits/stl_multimap.h \
-  /usr/include/qt/QtCore/qmap.h \
-  /usr/include/qt/QtCore/qhash.h \
-  /usr/include/qt/QtCore/qobject.h \
-  /usr/include/qt/QtCore/qscopedpointer.h \
   /usr/include/qt/QtCore/qobject_impl.h \
   /usr/include/c++/12.2.1/chrono \
   /usr/include/c++/12.2.1/bits/chrono.h \
@@ -713,30 +716,11 @@ CMakeFiles/AnimeForAll.dir/AnimeForAll_autogen/mocs_compilation.cpp.o: AnimeForA
   /usr/include/c++/12.2.1/limits \
   /usr/include/c++/12.2.1/ctime \
   /usr/include/c++/12.2.1/bits/parse_numbers.h \
-  /usr/include/c++/12.2.1/variant \
-  /usr/include/qt/QtWidgets/QApplication \
-  /usr/include/qt/QtWidgets/qapplication.h \
-  /usr/include/qt/QtWidgets/qtwidgetsglobal.h \
-  /usr/include/qt/QtGui/qtguiglobal.h \
-  /usr/include/qt/QtGui/qtgui-config.h \
-  /usr/include/qt/QtWidgets/qtwidgets-config.h \
-  /usr/include/qt/QtCore/qcoreapplication.h \
-  /usr/include/qt/QtCore/qcoreevent.h \
-  /usr/include/qt/QtCore/qeventloop.h \
-  /usr/include/qt/QtGui/qwindowdefs.h \
-  /usr/include/qt/QtCore/qpoint.h \
-  /usr/include/qt/QtCore/qsize.h \
   /usr/include/qt/QtCore/qmargins.h \
-  /usr/include/qt/QtGui/qcursor.h \
-  /usr/include/qt/QtGui/qguiapplication.h \
-  /usr/include/qt/QtGui/qinputmethod.h \
-  /usr/include/qt/QtCore/qlocale.h \
-  /usr/include/qt/QtCore/qvariant.h \
-  /usr/include/qt/QtCore/qshareddata.h \
-  /usr/include/qt/QtWidgets/QWidget \
-  /usr/include/qt/QtWidgets/qwidget.h \
   /usr/include/qt/QtGui/qpaintdevice.h \
   /usr/include/qt/QtCore/qrect.h \
+  /usr/include/qt/QtCore/qsize.h \
+  /usr/include/qt/QtCore/qpoint.h \
   /usr/include/qt/QtGui/qpalette.h \
   /usr/include/qt/QtGui/qcolor.h \
   /usr/include/qt/QtGui/qrgb.h \
@@ -753,15 +737,15 @@ CMakeFiles/AnimeForAll.dir/AnimeForAll_autogen/mocs_compilation.cpp.o: AnimeForA
   /usr/include/qt/QtGui/qpixelformat.h \
   /usr/include/qt/QtGui/qpixmap.h \
   /usr/include/qt/QtCore/qsharedpointer.h \
+  /usr/include/qt/QtCore/qshareddata.h \
+  /usr/include/qt/QtCore/qhash.h \
   /usr/include/qt/QtCore/qsharedpointer_impl.h \
   /usr/include/qt/QtGui/qfont.h \
   /usr/include/qt/QtGui/qfontmetrics.h \
   /usr/include/qt/QtGui/qfontinfo.h \
   /usr/include/qt/QtWidgets/qsizepolicy.h \
+  /usr/include/qt/QtGui/qcursor.h \
   /usr/include/qt/QtGui/qkeysequence.h \
-  /usr/include/qt/QtWidgets/QMainWindow \
-  /usr/include/qt/QtWidgets/qmainwindow.h \
-  /usr/include/qt/QtWidgets/qwidget.h \
   /usr/include/qt/QtWidgets/qtabwidget.h \
   /usr/include/qt/QtGui/qicon.h \
   AnimeForAll_autogen/EWIEGA46WW/moc_LoginWindow.cpp \
@@ -775,6 +759,9 @@ CMakeFiles/AnimeForAll.dir/AnimeForAll_autogen/mocs_compilation.cpp.o: AnimeForA
   /usr/include/qt/QtWidgets/qlineedit.h \
   /usr/include/qt/QtGui/qtextcursor.h \
   /usr/include/qt/QtGui/qtextformat.h \
+  /usr/include/qt/QtCore/qvariant.h \
+  /usr/include/qt/QtCore/qmap.h \
+  /usr/include/c++/12.2.1/variant \
   /usr/include/qt/QtGui/qpen.h \
   /usr/include/qt/QtGui/qtextoption.h
 
