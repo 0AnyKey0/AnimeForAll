@@ -11,8 +11,8 @@
 #include "AnimeForAll.h"
 
 AnimeForAll::AnimeForAll(QWidget *parent) :
-    QWidget(parent),
-    ui(new Ui::AnimeForAll)
+    QMainWindow(parent),
+    ui(new AnimeForAll)
 {
     ui->setupUi(this);
 }

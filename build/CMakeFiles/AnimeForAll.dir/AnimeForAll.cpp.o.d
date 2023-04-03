@@ -290,8 +290,10 @@ CMakeFiles/AnimeForAll.dir/AnimeForAll.cpp.o: \
  /usr/include/qt/QtWidgets/qlineedit.h \
  /usr/include/qt/QtGui/qtextcursor.h /usr/include/qt/QtGui/qtextformat.h \
  /usr/include/qt/QtGui/qpen.h /usr/include/qt/QtGui/qtextoption.h \
- /home/anarchyst/AnimeForAll/build/AnimeForAll_autogen/include/ui_AnimeForAll.h \
+ /home/anarchyst/AnimeForAll/ui_AnimeForAll.h \
  /usr/include/qt/QtWidgets/QApplication /usr/include/qt/QtWidgets/QWidget \
  /usr/include/qt/QtWidgets/qwidget.h \
  /home/anarchyst/AnimeForAll/AnimeForAll.h \
- /usr/include/qt/QtWidgets/QWidget
+ /usr/include/qt/QtWidgets/QMainWindow \
+ /usr/include/qt/QtWidgets/qmainwindow.h \
+ /usr/include/qt/QtWidgets/qtabwidget.h /usr/include/qt/QtGui/qicon.h

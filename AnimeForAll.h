@@ -1,13 +1,11 @@
 #ifndef ANIMEFORALL_H
 #define ANIMEFORALL_H
 
-#include <QWidget>
+#include <QMainWindow>
 
-QT_BEGIN_NAMESPACE
-namespace Ui { class AnimeForAll; }
-QT_END_NAMESPACE
+#include "ui_AnimeForAll.h"
 
-class AnimeForAll : public QWidget
+class AnimeForAll : public QMainWindow
 {
     Q_OBJECT
 
@@ -16,7 +14,7 @@ public:
     ~AnimeForAll();
 
 private:
-    Ui::AnimeForAll *ui;
+    AnimeForAll *ui;  // изменено на Ui_AnimeForAll
 };
 
 #endif // ANIMEFORALL_H
