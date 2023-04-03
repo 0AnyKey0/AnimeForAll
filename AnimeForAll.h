@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+namespace Ui { class AnimeForAll; }
+
 QT_BEGIN_NAMESPACE
 namespace Ui {
     class AnimeForAll;
